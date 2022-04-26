@@ -1,0 +1,23 @@
+{
+    "name": "appsline/mysqlmapper",
+    "type": "library",
+    "description": "ORM para el uso simple de MySQL",
+    "authors": [
+        {
+            "name": "Luis Acxis",
+            "email": "luisacxis@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "ext-ctype": "*",
+        "ext-filter": "*",
+        "ext-hash": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AppsLine\\MySQLMapper\\": "src/"
+        }
+    },
+    "license": "LGPL-2.1-only"
+}
