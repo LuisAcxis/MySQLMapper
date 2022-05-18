@@ -340,6 +340,10 @@ class Query {
             $text = str_replace('__DATETIME__', date('Y-m-d H:i:s'), $text);
         }
 
+        if(strpos($text, '__DATE__') !== false) {
+            $text = str_replace('__DATE__', date('Y-m-d'), $text);
+        }
+
         if(strpos($text, '__THIS__') !== false) {
             $renderThis = true;
 
